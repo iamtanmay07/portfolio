@@ -100,8 +100,3 @@ ul > li{
     transform-origin:left;
     transform:scaleX(1);
   }
-
-/* .nav-items:hover {
-    color: #BFA181 !important;
-    text-shadow: 0px 2px 0px #BFA181;
-} */
