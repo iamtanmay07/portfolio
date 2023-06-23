@@ -56,9 +56,6 @@ function Navigation() {
                   </Button>
                 </ul>
 
-                
-
-
             </Nav>
         </Navbar.Collapse>
       </Navbar>
