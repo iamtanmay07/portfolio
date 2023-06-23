@@ -46,7 +46,6 @@ function Navigation() {
                 <Nav.Link className="nav-items" href="#portfolio"> Portfolio </Nav.Link>
                 <Nav.Link className="nav-items" href="#contactme"> Contact Me </Nav.Link> */}
                 <ul>
-                  <li className='nav-items' ><a href="#profile">Home</a></li>
                   <li className='nav-items' ><a href="#aboutme"> About Me </a></li>
                   <li className='nav-items' ><a href="#education">Education</a></li>
                   <li className='nav-items' ><a href="#skills"> Skills </a></li>
