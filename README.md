@@ -11,11 +11,12 @@ This is my portfolio showcases visually appealing web projects, highlighting my 
 </div>
 
 
-## Preview
+## Preview 
 ### Live : https://portfolio-iamtanmay07.netlify.app
 <img width="1280" alt="Screenshot 2023-06-19 at 1 26 28 PM" src="https://github.com/iamtanmay07/portfolio/assets/96469706/b0503303-33cd-402b-ae54-056a769cb7e9">
 
-## Inspirations
+
+## Inspirations 
 I drew inspiration for developing my portfolio from the following sources:
 <ul>
   <li> https://matthewjigalin-react-portfolio.netlify.app </li>
