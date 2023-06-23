@@ -1,5 +1,5 @@
 # Portfolio using React.js
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/christiandavid/gatsby-theme-byfolio/blob/dev/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/iamtanmay07/portfolio/blob/main/LICENSE)
 
 This is my portfolio showcases visually appealing web projects, highlighting my proficiency in HTML, CSS, and JavaScript, along with frameworks like React.
 ### Tech-Stack 🔨 
