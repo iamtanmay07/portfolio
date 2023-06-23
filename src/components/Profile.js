@@ -10,7 +10,7 @@ import Mee from "./media/mee.JPG";
 
 function Profile() {
     return (
-        <div className='ts'>
+        <div id='profile' className='ts'>
         <Container fluid className="profile-row">
             <Row>
                 <Col className="column-greeting" xs={12} lg={4}>

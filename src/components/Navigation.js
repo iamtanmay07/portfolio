@@ -40,16 +40,24 @@ function Navigation() {
         <Navbar.Collapse id="basic-navbar-nav">
 
             <Nav className="ms-auto">
-                <Nav.Link className="nav-items" href="#aboutme"> About Me </Nav.Link>
+                {/* <Nav.Link className="nav-items" href="#aboutme"> About Me </Nav.Link>
                 <Nav.Link className="nav-items" href="#education"> Education </Nav.Link>
                 <Nav.Link className="nav-items" href="#skills"> Skills </Nav.Link>
                 <Nav.Link className="nav-items" href="#portfolio"> Portfolio </Nav.Link>
-                <Nav.Link className="nav-items" href="#contactme"> Contact Me </Nav.Link>
-
-
-                <Button className="nav-resume ml-auto"  target="_blank" rel="noreferrer"> Resume {
+                <Nav.Link className="nav-items" href="#contactme"> Contact Me </Nav.Link> */}
+                <ul>
+                  <li className='nav-items' ><a href="#profile">Home</a></li>
+                  <li className='nav-items' ><a href="#aboutme"> About Me </a></li>
+                  <li className='nav-items' ><a href="#education">Education</a></li>
+                  <li className='nav-items' ><a href="#skills"> Skills </a></li>
+                  <li className='nav-items' ><a href="#portfolio"> Portfolio </a></li>
+                  <li className='nav-items' ><a href="#contactme">Contact</a></li>
+                  <Button className="nav-resume ml-auto"  target="_blank" rel="noreferrer"> Resume {
                     <FontAwesomeIcon icon={ faFileDownload } /> }
-                </Button>
+                  </Button>
+                </ul>
+
+                
 
 
             </Nav>
