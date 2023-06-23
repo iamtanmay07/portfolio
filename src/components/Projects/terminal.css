@@ -1,0 +1,58 @@
+
+
+.terminall {
+    width: 550px;
+    margin-bottom: 20px;
+  }
+
+  /* .terminal-content:hover{
+    background-color: transparent;
+  } */
+
+  .terminall-header {
+    background-color: #8c8c8c;
+    padding: 0.3rem;
+    font-size: 0.5rem;
+    border-radius: 0.5 0.5;
+  }
+  
+  .terminall-header i {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .terminall-content {
+    background-color: #2D3748;
+    background-image: url("https://www.transparenttextures.com/patterns/navy.png");
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    border: 0.8px solid #8c8c8c;
+    padding: 0;
+    border-radius: 0;
+  }
+
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+
+.corner{
+    align-items: left;
+    margin-left: 5px;
+}
+
+.aboutmeText{
+    width: 100px;
+}
+
+@media screen and (max-width:900px) {
+  .terminall{
+    width: 300px;
+    margin-top: 0;
+  }
+}

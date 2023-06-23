@@ -1,0 +1,66 @@
+.vertical-timeline-element-title{
+    font-size: 1rem;
+    margin-bottom: 14px;
+}
+
+.aca{
+    background: #171923;
+    background-image: url("https://www.transparenttextures.com/patterns/navy.png");
+    margin-bottom: -80px;
+    padding-bottom: 50px;
+}
+
+#education{
+    background: transparent;
+}
+
+#education > h5{
+    padding-top: 50px;
+    font-size: 1.4rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.vertical-timeline-element-subtitle{
+    font-size: 0.8rem;
+    color: #38B2AC;
+    margin-bottom: 9px;
+    font-weight: 100;
+}
+
+.vertical-timeline-element-title{
+    font-size: 1rem;
+    margin-bottom: 9px;
+}
+
+.result{
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.vertical-timeline-element--work:hover{
+    background-color: transparent;
+}
+
+.institute{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 14px;
+}
+
+.container{
+    margin-bottom: 80px;
+}
+
+.vertical-timeline-element--no-children .vertical-timeline-element-content {
+    background: 0 0 0 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+h5{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 60px;
+}

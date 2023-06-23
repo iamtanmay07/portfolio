@@ -1,0 +1,147 @@
+
+#about{
+    margin-top: 100px;
+    margin-bottom: 0;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    background: #1A202C;
+    background-image: url("https://www.transparenttextures.com/patterns/navy.png");
+}
+
+#about > h5{
+    padding-top: 60px;
+    font-size: 1.4rem;
+}
+
+.about_container {
+    width: 63%;
+    align-items: center;
+    overflow: hidden;
+}
+
+#container{
+    margin: 0;
+    align-items: center;
+}
+
+.about_me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    display: grid;
+    width: 50%;
+
+    margin: 0;
+    /* place-items: center; */
+}
+
+
+.red{
+    color: red;
+}
+
+.about_me img{
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.about_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 8%;
+}
+
+.about_card{
+  background: transparent;
+  border: 1px solid #CBE4DE;
+  color: #e8e8e8  ;
+  background-color: #043c49d6;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+/* color option 
+
+#1199b7d6
+#6d726d
+#034250d6
+#043c49d6
+*/
+
+.about_card:hover{
+background: transparent;
+border-color: white;
+
+}
+
+#about > h5{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+p{
+    margin-top: 0;
+    color: #bebebe;
+}
+
+.about_icon{
+    color: whitesmoke;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.about_card > h5{
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.about_card > small{
+    font-size: 0.7rem;
+    color: #616161;
+}
+
+/* ---media queries--- */
+@media screen and (max-width:1024px) {
+
+   .about_container{
+    grid-template-columns: 180px 100%;
+
+    gap: 0;
+   }
+   .about_me{
+    width: 50%;
+    margin: 2rem auto 4rem;
+   }
+   .about_content p{
+    margin: 1rem 0 1.5rem;
+   }
+}
+
+@media screen and (max-width:900px) {
+    #about{
+        margin: 0;
+    }
+    .about_me{
+        width: 65%;
+        margin: 0;
+       }
+
+       .about_cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+       }
+       .about_content{
+        text-align: center;
+       }
+   .about_content p{
+      margin: 1.5rem 0;
+    }
+}

@@ -1,0 +1,136 @@
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  overflow: hidden;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.modal.enter-done {
+  opacity: 1;
+  pointer-events: visible;
+}
+
+.modal.exit {
+  opacity: 0;
+}
+
+.modal-content {
+  width: 750px;
+  height: auto;
+  /* background: radial-gradient(#1b2735 0%,#090a0f 100%); */
+  background-color: #0A1828;
+  background-image: url("https://www.transparenttextures.com/patterns/navy.png");
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-200px);
+}
+
+.modal.enter-done .modal-content {
+  transform: translateY(0);
+}
+
+.modal.exit .modal-content {
+  transform: translateY(-200px);
+}
+
+.modal-header,
+.modal-footer {
+  padding: 10px;
+  border: none;
+}
+
+.modal-title {
+  margin: 0;
+  text-align: center;
+}
+
+.button{
+  font-size: 1.3rem;
+  color: white;
+  font-weight: bolder;
+}
+.button:hover{
+  cursor: pointer;
+}
+
+.project-foto{
+  width: 550px;
+  margin-bottom: 20px;
+}
+
+.foto{
+  width: 560px;
+  /* border: solid #8c8c8c 5px; */
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details > h5{
+  margin:0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #BFA181;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.details > p{
+  /* font-size: 0.85rem; */
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 20px;
+  /* font-family:Consolas, Lucida Sans Typewriter, Lucida Console, Monaco, Bitstream Vera Sans Mono, monospace; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Poppins', sans-serif;
+}
+
+.details{
+  margin: 0;
+  width: 80%;
+}
+.icons{
+  color: white;
+  font-size: 1.7rem;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.link-icon{
+  text-align: top;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #BFA181;
+  margin-top: -3px;
+}
+
+@media screen and (max-width:900px) {
+  .modal-content{
+    height: auto;
+    width: 500px;
+  }
+  .details > p{
+    /* font-size: 0.85rem; */
+    font-size: 11px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .details > h5{
+    margin:0;
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+}

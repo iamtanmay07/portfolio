@@ -1,0 +1,51 @@
+
+@import "root.css";
+
+.nav1 {
+    background-color: transparent;
+    /* box-shadow: 0px 1px 10px rgba(161, 199, 215, 0.134); */
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav2{
+    background: #171923;
+    background-image: url("https://www.transparenttextures.com/patterns/navy.png");
+    box-shadow: 0px 1px 5px rgba(161, 199, 215, 0.134);
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-items {
+    /* color: #38B2AC !important; */
+    color: #BFA181 !important;
+}
+
+.nav-brand {
+    margin-left: 5px;
+    /* color: #38B2AC !important; */
+    color: #BFA181 !important;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-resume {
+    background-color: transparent !important;
+    /* color: #38B2AC !important; */
+    /* border: 1px solid #38B2AC !important; */
+    color: #BFA181 !important;
+    border: 1px solid #BFA181 !important;
+}
+
+.nav-items, .nav-brand, .nav-resume {
+    margin: 15px 15px;
+}
+
+.nav-logo {
+    height: auto;
+}
+
+.nav-items:hover {
+    color: #BFA181 !important;
+    text-shadow: 0px 2px 0px #BFA181;
+}

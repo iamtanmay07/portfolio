@@ -1,0 +1,189 @@
+.contact_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 40%;
+    gap: 100px;
+    overflow: hidden;
+    margin-left: 20%;
+}
+
+#contact > h5{
+    margin-bottom: 30px;
+    padding-top: 40px;
+    font-size: 1.4rem;
+}
+
+#contact > p{
+    margin-bottom: 20px;
+}
+
+#contact{
+    margin-bottom: 0;
+    overflow: hidden;
+    height: 615px;
+    width: 100%;
+    background: #1A202C;
+    background-image: url("https://www.transparenttextures.com/patterns/navy.png");
+}
+
+.contact_options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+::placeholder{
+    color: white;
+    font-size: 0.9rem;
+}
+.contact_option{
+    background: #2D3748;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid white;
+    /* transition: var(--transition); */
+}
+
+.contact_option:hover{
+    background: transparent;
+    border-color: white;
+    cursor: pointer;
+}
+
+.contact_option > h5{
+    font-size: 0.7rem;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.contact_option > h4{
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.contact_option > a{
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: #38B2AC;
+}
+/* #404040 */
+.contact_option-icon{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.contact_option a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+/*--form--*/
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid white;
+    resize: none;
+    color: white;
+    text-decoration: none;
+}
+
+.submit{
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #2D3748;
+    color: white;
+    text-decoration: none;
+    border-color: white;
+    width: 200px;
+}
+
+.btn:hover{
+    text-decoration: none;
+    background-color: #2D3748;
+    color: #38B2AC;
+    border-color: white;
+}
+
+.btn:link {
+    text-decoration: none;
+  }
+  
+.btn:visited {
+    text-decoration: none;
+  }
+  
+  
+.btn:active {
+    text-decoration: none;
+  }
+  
+  /* for removing blue border when you click on it -> happens because it is focused */
+  input:focus,
+  select:focus, 
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+
+
+input{
+    border-color: white;
+    width: 300px;
+    height: 50px;
+}
+
+textarea{
+    width: 400px;
+    height: 150px;
+}
+input:link {
+    text-decoration: none;
+  }
+  
+input:visited {
+    text-decoration: none;
+  }
+  
+input:hover {
+    text-decoration: none;
+  }
+  
+input:active {
+    text-decoration: none;
+  }
+  
+/* -- media query -- */
+
+ @media screen and (max-width:1024px) {
+   .contact_container{
+    grid-template-columns: 30% 30%;
+    gap: 2rem;
+    overflow: hidden;
+   }
+   form{
+    display: none;
+   }
+}
+ @media screen and (max-width:900px) {
+   .contact_container{
+        grid-template-columns: 30%;
+        place-items: center;
+        overflow: hidden;
+   }
+}

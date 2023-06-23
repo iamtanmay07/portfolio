@@ -1,0 +1,45 @@
+.icons{
+    margin-bottom: 0;
+    color: white;
+}
+a{
+    color: white;
+}
+span{
+    color:white;
+}
+
+.footerrr{
+    margin-bottom: 0;
+    background-color: #171923;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.copyright{
+    padding-top: 8px;
+    background-color: #161a24;
+    height: auto;
+}
+
+.container > small{
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.py-4 {
+    padding-top: 1 rem!important;
+}
+
+footer{
+    background-color: #171923;
+}
+
+
+.social-links{
+margin-top: 15px;
+}

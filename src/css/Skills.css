@@ -1,0 +1,107 @@
+
+#skills {
+    margin-bottom: -82px;
+    background-color: #1A202C;
+    background-image: url("https://www.transparenttextures.com/patterns/navy.png");
+    padding: 0;
+}
+
+#skills > h5{
+    padding-top: 50px;
+    font-size: 1.4rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.experience_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 70%;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.experience_container > div {
+    background: #2D3748;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid white;
+    transition: inherit;
+}
+
+.experience_container > div:hover{
+    background: transparent;
+    border-color: white;
+}
+
+
+h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.experience_container > div h4{
+    text-align: left;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.experience_container > div small{
+    text-align: center;
+    /* color: #616161; */
+    color: #38B2AC;
+    /* color: #957C3D; */
+    font-size: 0.8rem;
+
+}
+
+.experience_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+.experience_details{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.experience_details-icon{
+    margin-top: 2px;
+    color: whitesmoke;
+
+}
+
+
+
+/*media query*/
+
+@media screen and (max-width:1024px) {
+ 
+   .experience_container{
+    grid-template-columns: 1fr;
+   }
+   .experince_container > div{
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+   }
+   .experience_content{
+    padding: 1rem;
+   }
+}
+
+@media screen and (max-width:600px) {
+   .experience_container{
+    gap: 1rem;
+   }
+   .experience_container > div{
+    width: 100%;
+    padding: 2rem 1rem;
+   }
+}
