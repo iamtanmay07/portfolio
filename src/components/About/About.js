@@ -31,7 +31,7 @@ export default function About() {
             </p>
             <div className='coding_profiles'>
                 <a href='https://leetcode.com/tanmey/' target='_block'className='ids'> Leetcode </a>    
-                <a href='https://www.codechef.com/users/tonikroos' target='_block' className='ids' > Codechef </a>
+                <a href='https://auth.geeksforgeeks.org/user/kroosslay/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user' target='_block' className='ids' > GFG </a>
                 <a href='https://github.com/iamtanmay07' target='_block' className='ids'> Github </a>
             </div>
         </div>
