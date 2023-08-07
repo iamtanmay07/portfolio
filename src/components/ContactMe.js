@@ -44,8 +44,8 @@ const ContactMe = () => {
              <article className='contact_option'>
                 <SiLeetcode className='contact_option-icon'/>
                 <h4>Leetcode</h4>
-                <a href='https://github.com/iamtanmay07' target='_blank' rel='noreferrer'>
-                  850+ problems solved  
+                <a href='https://leetcode.com/tanmey/' target='_blank' rel='noreferrer'>
+                  900+ problems solved  
                 </a>
              </article>    
         </div>
