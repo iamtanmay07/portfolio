@@ -7,6 +7,7 @@ import '../css/Profile.css';
 import '../css/App.css';
 import Me from "./media/me.jpg";
 import Mee from "./media/mee.JPG";
+import Na from "./media/naa.jpg"
 
 function Profile() {
     return (
@@ -21,7 +22,7 @@ function Profile() {
 
                 <Col className="column-profile" xs={12} lg={4}>
                     <div className="profile">
-                        <img className="profile-img" src={Me} alt="pp" />
+                        <img className="profile-img" src={Na} alt="pp" />
                     </div>
 
 
