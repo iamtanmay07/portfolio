@@ -16,7 +16,7 @@ export default function About() {
             
             <p className='para'><span style={{color: colors[0]}}>aboutTanmay <span
                 style={{color: colors[2]}}> (main) </span> $ </span>
-                I am a frontend developer with a strong passion for data structures 
+                I am a MERN developer with a strong passion for data structures 
                 and problem-solving on platforms like LeetCode. 
                 My portfolio showcases visually appealing web projects, 
                 highlighting my proficiency in HTML, CSS, and JavaScript, 
