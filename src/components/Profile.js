@@ -30,7 +30,7 @@ function Profile() {
 
 
                 <Col className="column-status" xs={12} lg={4}>
-                    <p className="lower-profile-text"> Programmer & Frontend Developer</p>
+                    <p className="lower-profile-text"> Programmer & Full-Stack Developer</p>
                     <p className="lower-profile-text-sub">IT undergraduate at NIT Raipur</p>
                 </Col>
             </Row>
