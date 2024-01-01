@@ -30,7 +30,7 @@ function Academics() {
           <h5 className="vertical-timeline-element-subtitle">
             NIT Raipur (2021 - 2025)
           </h5>
-          <small className="result">8.47 CPI (4th sem)</small>
+          <small className="result">8.41 CPI (5th sem)</small>
         </VerticalTimelineElement>
 
 
