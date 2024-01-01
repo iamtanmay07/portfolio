@@ -1,9 +1,11 @@
 import React from 'react';
 import '../css/Skills.css';
 
-import {SiCss3 , SiHtml5 , SiJavascript, SiBootstrap, SiReact, SiCplusplus, SiPython} from 'react-icons/si';
+import {SiCss3 , SiHtml5 , SiJavascript, SiBootstrap, SiReact, SiCplusplus, SiPython, SiMongodb} from 'react-icons/si';
 import { RiCodeSSlashFill } from "react-icons/ri";
 import { DiNetbeans } from "react-icons/di";
+import { FaNodeJs } from "react-icons/fa";
+
 const Skills = () => {
   return (
     <section id='skills'>
@@ -48,6 +50,30 @@ const Skills = () => {
                  <div>
                  <h4>React</h4>
                  <small>Intermediate</small>
+                 </div>
+            </article>
+
+            <article className='experience_details'>
+                 <FaNodeJs className='experience_details-icon' />
+                 <div>
+                 <h4>NodeJS</h4>
+                 <small>Beginner</small>
+                 </div>
+            </article>
+
+            <article className='experience_details'>
+                 <FaNodeJs className='experience_details-icon' />
+                 <div>
+                 <h4>ExpressJS</h4>
+                 <small>Beginner</small>
+                 </div>
+            </article>
+
+            <article className='experience_details'>
+                 <SiMongodb className='experience_details-icon' />
+                 <div>
+                 <h4>MongoDB</h4>
+                 <small>Beginner</small>
                  </div>
             </article>
            </div>
