@@ -186,4 +186,9 @@ input:active {
         place-items: center;
         overflow: hidden;
    }
+
+   #contact{
+    display: none;
+   }
 }
+

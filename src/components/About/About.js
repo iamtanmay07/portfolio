@@ -20,7 +20,7 @@ export default function About() {
                 and problem-solving on platforms like LeetCode. 
                 My portfolio showcases visually appealing web projects, 
                 highlighting my proficiency in HTML, CSS, and JavaScript, 
-                along with frameworks like React. 
+                along with frameworks like React, NextJS. 
             <br/> I am also passionate football and cricket fan, and I am looking to integrate my technical skills with these sports through relevant projects.
 
             </p>
@@ -67,11 +67,30 @@ export default function About() {
     //     </>;
     // }
 
+
     return (
         <div className='about'>
-            <Terminal text={aboutMeText()} className='content'/>
+            <div className='term-mobile'><Terminal text={aboutMeText()} className='content'/></div>
             {/* <Terminal text={skillsText()} className='content'/> */}
             {/* <Terminal text={miscText()}/>  */}
+            <div className='about-mobile'>
+                <div className='intro-mobile'>
+                    <h3 className='h-mobile'> Inspiring Full-Stack Developer </h3>
+                    <p className='para-mobile'> I am a MERN developer with a strong passion for data structures 
+                and problem-solving on platforms like LeetCode. 
+                My portfolio showcases visually appealing web projects, 
+                highlighting my proficiency in HTML, CSS, and JavaScript, 
+                along with frameworks like ReactJS, NextJS. 
+                </p>
+                <br></br>
+                <h4 className='sub-hed-mobile'>Navigation to my coding profiles : </h4>
+                <div className='coding_profiles'>
+                <a href='https://leetcode.com/tanmey/' target='_block' className='ids'> <span style={{fontSize:"0.7rem", color:"#BFA181", fontWeight:"600"}}> Leetcode </span> </a>    
+                <a href='https://auth.geeksforgeeks.org/user/kroosslay/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user' target='_block' className='ids' > <span style={{fontSize:"0.7rem", color:"#BFA181", fontWeight:"600"}}> GFG </span> </a>
+                <a href='https://github.com/iamtanmay07' target='_block' className='ids'> <span style={{fontSize:"0.7rem", color:"#BFA181", fontWeight:"600"}}> Github </span> </a>
+            </div>
+                </div>
+            </div>
         </div>
     )
 }

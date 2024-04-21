@@ -12,7 +12,7 @@ const Skills = () => {
       <h5>Skills I Have</h5>
       <div className='container experience_container'>
         <div className='experience_frontend'>
-           <h3>Frontend Development</h3>
+           <h3>Web Development</h3>
            <div className='experience_content'>
             <article className='experience_details'>
                  <SiHtml5 className='experience_details-icon' />
@@ -24,7 +24,7 @@ const Skills = () => {
             <article className='experience_details'>
                  <SiCss3 className='experience_details-icon' />
                  <div>
-                 <h4>CSS</h4>
+                 <h4>Tailwind-CSS</h4>
                  <small>Experienced</small>
                  </div>          
             </article>
@@ -76,6 +76,24 @@ const Skills = () => {
                  <small>Beginner</small>
                  </div>
             </article>
+
+
+            <article className='experience_details'>
+                 <SiMongodb className='experience_details-icon' />
+                 <div>
+                 <h4>TypeScript</h4>
+                 <small>Very Beginner</small>
+                 </div>
+            </article>   
+
+            <article className='experience_details'>
+                 <SiMongodb className='experience_details-icon' />
+                 <div>
+                 <h4>NextJS</h4>
+                 <small>Working</small>
+                 </div>
+            </article>
+
            </div>
         </div>
 
