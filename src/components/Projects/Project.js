@@ -6,8 +6,15 @@ import port from "../media/portfolio.png";
 import todo from "../media/todo.png";
 import catch1 from "../media/catch1.png";
 import GOAL from "../media/goal.png"
+import Weatherr from "../media/weather.png"
+import Dashboard from "../media/dashboard.png";
+import Hoobank from "../media/hoobank.png";
 import "./Project.css";
-import { SiCss3, SiHtml5, SiJavascript, SiReact, SiBootstrap } from "react-icons/si";
+import { SiCss3, SiHtml5, SiJavascript, SiReact, SiBootstrap , SiTailwindcss , SiTypescript } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { TbBrandNextjs } from "react-icons/tb";
+
+
 
 function Project() {
   const [show, setShow] = useState(false);
@@ -16,7 +23,14 @@ function Project() {
   const [show4, setShow4] = useState(false);
   const [show5, setShow5] = useState(false);
   const [show6, setShow6] = useState(false);
+  const [show7, setShow7] = useState(false);
+  const [show8, setShow8] = useState(false);
+  const [show9, setShow9] = useState(false);
+  // const initialState = Array.from({ length: 6 }, () => false);
+  // const [shows, setShow] = useState(initialState);
 
+  // // Accessing individual show states
+  // const [ show1, show2, show3, show4, show5, show6] = shows;
   return (
     <section id="portfolio">
       <div className="container project-main">
@@ -25,7 +39,8 @@ function Project() {
         </h5>
 
         <div className="project_container">
-          <div className="project_info" onClick={() => setShow(true)}>
+          
+        <div className="project_info" onClick={() => setShow7(true)}>
             <img
               src={port}
               alt="Portfolio"
@@ -40,6 +55,66 @@ function Project() {
               icon = {[<SiReact className="icons"/> , <SiJavascript className="icons"/> , <SiCss3 className="icons"/> , <SiHtml5 className="icons" /> ]}
               foto={port}
               link=""
+              onClose={() => setShow7(false)} 
+              show={show7} >
+          </Modal>
+
+          <div className="project_info" onClick={() => setShow8(true)}>
+            <img
+              src={Dashboard}
+              alt="dashboard"
+              className="project_photo"
+              height="300px"
+            />
+            <h5> Analytical Dashboard </h5>
+          </div>
+          <Modal 
+              title="Analytical Dashboard"
+              details="A sophisticated data visualization tool developed with Next.js and Tailwind CSS, offering insightful analytics and customizable reporting for informed decision-making."
+              icon = {[<TbBrandNextjs className="icons"/> , <SiReact className="icons"/> , <SiTypescript className="icons"/> , <SiTailwindcss className="icons"/> ]}
+              foto={Dashboard}
+              link="https://github.com/iamtanmay07/dashboard-next"
+              onClose={() => setShow8(false)} 
+              show={show8} >
+          </Modal>
+
+
+          <div className="project_info" onClick={() => setShow9(true)}>
+            <img
+              src={Hoobank}
+              alt="hoobank"
+              className="project_photo"
+              height="300px"
+            />
+            <h5> HooBank Template </h5>
+          </div>
+          <Modal 
+              title="HooBank Template" 
+              details="A dynamic frontend website created while mastering React.js, Tailwind CSS, and TypeScript, providing an immersive learning experience in web development with modern technologies."
+              icon = {[ <SiReact className="icons"/> , <SiJavascript className="icons"/> , <SiTailwindcss className="icons"/> , <SiHtml5 className="icons" /> ]}
+              foto={Hoobank}
+              link="https://hoobank-react-website.vercel.app/"
+              onClose={() => setShow9(false)} 
+              show={show9} >
+          </Modal>
+
+
+
+          <div className="project_info" onClick={() => setShow(true)}>
+            <img
+              src={Weatherr}
+              alt="weather-express"
+              className="project_photo"
+              height="300px"
+            />
+            <h5> Weather Express </h5>
+          </div>
+          <Modal 
+              title="Weather Express" 
+              details="A sleek weather finding app crafted with APIs, Node.js, JavaScript, HTML, and CSS, delivering real-time updates and personalized forecasts for users' convenience."
+              icon = {[  <FaNodeJs className="icons"/> , <SiJavascript className="icons"/> , <SiCss3 className="icons"/> , <SiHtml5 className="icons" /> ]}
+              foto={Weatherr}
+              link="weather-expresss.onrender.com/"
               onClose={() => setShow(false)} 
               show={show} >
           </Modal>
@@ -148,6 +223,7 @@ You can add notes with its title and content and also delete the notes."
               onClose={() => setShow5(false)} 
               show={show5} >
           </Modal>
+
 
 
 
