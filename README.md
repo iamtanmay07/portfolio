@@ -13,7 +13,7 @@ This is my portfolio showcases visually appealing web projects, highlighting my 
 
 ## Preview 
 ### Live : https://portfolio-iamtanmay07.netlify.app
-<img width="1280" alt="Screenshot 2023-06-19 at 1 26 28 PM" src="https://github.com/iamtanmay07/portfolio/assets/96469706/b0503303-33cd-402b-ae54-056a769cb7e9">
+<img width="1280" alt="portfolio" src="https://github.com/iamtanmay07/portfolio/assets/96469706/a22da20c-1e32-462b-9af9-538380951624">
 
 
 ## Inspirations 
