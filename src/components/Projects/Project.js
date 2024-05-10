@@ -9,10 +9,11 @@ import GOAL from "../media/goal.png"
 import Weatherr from "../media/weather.png"
 import Dashboard from "../media/dashboard.png";
 import Hoobank from "../media/hoobank.png";
+import Relx from "../media/relx.png";
 import "./Project.css";
 import { SiCss3, SiHtml5, SiJavascript, SiReact, SiBootstrap , SiTailwindcss , SiTypescript } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
+import { FaFigma, FaNodeJs } from "react-icons/fa";
+import { TbApi, TbBrandNextjs } from "react-icons/tb";
 
 
 
@@ -26,6 +27,7 @@ function Project() {
   const [show7, setShow7] = useState(false);
   const [show8, setShow8] = useState(false);
   const [show9, setShow9] = useState(false);
+  const [show10, setShow10] = useState(false);
   // const initialState = Array.from({ length: 6 }, () => false);
   // const [shows, setShow] = useState(initialState);
 
@@ -39,7 +41,27 @@ function Project() {
         </h5>
 
         <div className="project_container">
-          
+
+          <div className="project_info" onClick={() => setShow10(true)}>
+            <img
+              src={Relx}
+              alt="relx"
+              className="project_photo"
+              height="300px"
+            />
+            <h5> RelX </h5>
+          </div>
+          <Modal 
+              title="RelX - ChatBot" 
+              details="RelX is a versatile chatbot crafted with React, leveraging the OpenAI API for intelligent responses. Designed with CSS and JavaScript, its user interface is thoughtfully created in Figma for seamless interaction."
+              icon = {[<SiReact className="icons"/>, <FaFigma className="icons"/>, <TbApi className="icons"/> ,<SiJavascript className="icons"/> , <SiCss3 className="icons"/> , <SiHtml5 className="icons" /> ]}
+              foto={Relx}
+              link="https://github.com/iamtanmay07/RadicalX-Gen_AI_Chat/blob/main/frontend/src/utils/api.js"
+              onClose={() => setShow10(false)} 
+              show={show10} >
+          </Modal>
+
+
         <div className="project_info" onClick={() => setShow7(true)}>
             <img
               src={port}
