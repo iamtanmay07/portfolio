@@ -72,7 +72,7 @@ const Skills = () => {
             <article className='experience_details'>
                  <SiMongodb className='experience_details-icon' />
                  <div>
-                 <h4>MongoDB</h4>
+                 <h4>PostgreSQL</h4>
                  <small>Beginner</small>
                  </div>
             </article>
@@ -90,7 +90,7 @@ const Skills = () => {
                  <SiMongodb className='experience_details-icon' />
                  <div>
                  <h4>NextJS</h4>
-                 <small>Working</small>
+                 <small>Beginner</small>
                  </div>
             </article>
 
@@ -128,7 +128,7 @@ const Skills = () => {
                  <SiPython className='experience_details-icon' />
                  <div>
                  <h4>Python</h4>
-                 <small>Beginner</small>
+                 <small>Learning</small>
                  </div>
             </article>
 

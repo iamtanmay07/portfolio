@@ -51,7 +51,7 @@ function Navigation() {
                   <li className='nav-items' ><a href="#skills"> Skills </a></li>
                   <li className='nav-items' ><a href="#portfolio"> Portfolio </a></li>
                   <li className='nav-items' ><a href="#contactme">Contact</a></li>
-                  <Button className="nav-resume ml-auto" href="https://drive.google.com/file/d/1630oV5ySFjgLGV4S8EvnfsgHyKNwrovR/view?usp=sharing"  target="_blank" rel="noreferrer"> Resume {
+                  <Button className="nav-resume ml-auto" href="https://drive.google.com/file/d/11muml-zp1TgTrKXSm1EVPmthsbg89mB4/view?usp=sharing"  target="_blank" rel="noreferrer"> Resume {
                     <FontAwesomeIcon icon={ faFileDownload } /> }
                   </Button>
                 </ul>
